@@ -64,9 +64,9 @@ h1, h2, h3 {
     inset: 0;
     background: linear-gradient(
         90deg,
-        rgba(10, 15, 25, 0.88) 0%,
+        rgba(10, 15, 25, 0.097) 0%,
         rgba(10, 15, 25, 0.75) 40%,
-        rgba(10, 15, 25, 0.6) 100%
+        rgba(10, 15, 25, 0.237) 100%
     );
     z-index: 1;
 }
@@ -440,8 +440,6 @@ footer {
     border-radius: 25px;
     overflow: hidden;
     border: 1px solid rgba(197, 160, 89, 0.2);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
-    
     /* Filtro para o mapa ficar no estilo Dark Mode */
     /* Isso inverte as cores do Google Maps para combinar com o site */
     filter: grayscale(0.5) invert(0.9) contrast(1.1) hue-rotate(180deg);
