@@ -153,9 +153,10 @@ h1, h2, h3 {
 
 /* Container da imagem */
 .image-stack {
-    position: relative;
+    position: relative; /* Ajustado de 'c' para 'relative' */
     width: 290px;
     height: 400px;
+    margin: 0 auto; /* Centraliza o container todo na página, se necessário */
 }
 
 /* A foto principal */
